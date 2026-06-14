@@ -1,0 +1,207 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: olive;
+}
+
+.logo>img {
+    height: 36px;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+.block1-wrap {
+    background-image: url("t.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+.land-menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%;
+}
+
+.land-menu > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.land-menu a {
+    color: white;
+    text-decoration: none;
+}
+.land-menu a:hover {
+    text-decoration: underline;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90vh;
+    gap: 70px;
+    width: calc(55vw + 140px);
+    margin: 20px auto;
+}
+
+.catalog__card {
+    width: 15vw;
+    height: 30vh;
+}
+
+.catalog__card > img,
+.woods__card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.woods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90vh;
+    background-color: olive;
+}
+
+.woods__card {
+    width: 10vw;
+    height: 30vh;
+}
+
+.master {
+    height: 230vh;
+    display: flex;
+    font-size: 18px;
+    position: relative;
+}
+
+.master-text {
+    background-color: antiquewhite;
+    padding: 30px;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+.master-text > h3 {
+    font-size: 28px;
+}
+
+.master-text li {
+    margin-top: 20px;
+}
+
+.master-foto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.master-foto img {
+    height: 400px;
+    width: 400px;
+}
+
+.etap {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    gap: 50px;
+    align-items: center;
+}
+
+.etap-card {
+    background-color: antiquewhite;
+    width: 15vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.news {
+    display: flex;
+    justify-content: center; 
+}   
+
+.news__item {
+    min-width: 900px; ;
+    width:55vw ;
+     background-color: white;
+     padding: 30px;
+}
+
+.news__item > img {
+    width: 400px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews__item {
+    background-color: rgb(233, 233, 186);
+    min-width: 900px; ;
+    width:55vw ;
+    padding: 30px;
+}
+
+.reviews__item > img {
+    width: 400px;
+}
